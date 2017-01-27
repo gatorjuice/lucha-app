@@ -69,7 +69,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.10.0)
+    coffee-script-source (1.12.2)
     concurrent-ruby (1.0.0)
     d3_rails (3.5.16)
       railties (>= 3.1.0)
@@ -110,8 +110,8 @@ GEM
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
-    jquery-rails (4.1.0)
-      rails-dom-testing (~> 1.0)
+    jquery-rails (4.2.2)
+      rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (5.0.5)
@@ -237,8 +237,6 @@ GEM
     tilt (2.0.2)
     timeliness (0.3.8)
     ttfunk (1.4.0)
-    turbolinks (2.5.3)
-      coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.7.2)
@@ -293,7 +291,6 @@ DEPENDENCIES
   simple_form
   simplecov
   state_select
-  turbolinks
   uglifier (>= 1.3.0)
   validates_timeliness (~> 4.0)
   web-console (~> 2.0)
